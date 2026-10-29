@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Shield</string>
+    <string name="tagline">Look before you link. Scan QR codes and barcodes, then review them on your device.</string>
+    <string name="scan_button">Scan QR or barcode</string>
+    <string name="manual_button">Analyze a URL or text</string>
+    <string name="privacy_button">Privacy information</string>
+    <string name="recent_title">Recent scans</string>
+    <string name="recent_empty">Nothing is stored. In this version QR Shield does not keep a scan history; each scan is analyzed in memory and discarded when you leave the result.</string>
+    <string name="how_title">How local analysis works</string>
+    <string name="how_body">QR Shield decodes the code on your device and checks the content with fixed rules: scheme, hostname, ports, look-alike patterns and more. Nothing is sent anywhere. The checks point out things worth a second look. They cannot prove a site is safe or harmful, and QR Shield never opens a link by itself.</string>
+
+    <string name="scanner_title">Scan</string>
+    <string name="scanner_hint">Point the camera at a QR code or barcode.</string>
+    <string name="scanner_no_code">No usable code detected yet. Try better lighting, hold steady and fill more of the frame.</string>
+    <string name="scanner_unreadable">A code was detected but it has no readable content. Try again.</string>
+    <string name="scanner_failure">Scanning hit a problem. Keep the camera steady and try again.</string>
+    <string name="permission_title">Camera access needed</string>
+    <string name="permission_message">QR Shield uses the camera only to read codes while this screen is open. Images are analyzed on your device and are never stored or uploaded.</string>
+    <string name="permission_button_allow">Allow camera access</string>
+    <string name="permission_denied_title">Camera access is off</string>
+    <string name="permission_denied_message">Scanning needs the camera. You can enable it in the app settings, or analyze text manually from the home screen.</string>
+    <string name="permission_button_settings">Open app settings</string>
+    <string name="settings_unavailable">Could not open the app settings.</string>
+    <string name="camera_unavailable">The camera is not available on this device or is in use by another app.</string>
+    <string name="camera_error">The camera could not be started. Close other camera apps and try again.</string>
+    <string name="retry_button">Try again</string>
+
+    <string name="manual_title">Analyze URL or text</string>
+    <string name="manual_hint">Paste or type a URL or any text</string>
+    <string name="manual_description">QR Shield analyzes exactly what you enter. It never adds https:// or changes the address.</string>
+    <string name="analyze_button">Analyze</string>
+    <string name="clear_button">Clear</string>
+    <string name="error_empty_input">Enter a URL or some text first.</string>
+
+    <string name="result_title">Analysis</string>
+    <string name="label_original">Decoded content</string>
+    <string name="label_type">Content type</string>
+    <string name="label_host">Detected hostname</string>
+    <string name="label_findings">Findings</string>
+    <string name="label_next">Suggested next steps</string>
+    <string name="no_findings">No indicators were triggered.</string>
+    <string name="content_truncated">… (display shortened; Copy copies everything)</string>
+
+    <string name="risk_info">Informational</string>
+    <string name="risk_low">Low concern</string>
+    <string name="risk_medium">Caution</string>
+    <string name="risk_high">High caution</string>
+    <string name="risk_unknown">Unable to assess</string>
+    <string name="risk_badge_description">Risk level: %1$s</string>
+
+    <string name="type_empty">Empty</string>
+    <string name="type_text">Plain text (no web URL identified)</string>
+    <string name="type_valid_web_url">Web URL (http or https)</string>
+    <string name="type_invalid_web_url">Malformed web URL</string>
+    <string name="type_unsupported_scheme">Other URI scheme: %1$s</string>
+    <string name="type_too_long">Content too long to analyze</string>
+
+    <string name="open_button">Open in browser…</string>
+    <string name="copy_button">Copy</string>
+    <string name="copied">Copied to clipboard.</string>
+    <string name="copy_failed">Could not copy to the clipboard.</string>
+    <string name="scan_again">Scan again</string>
+    <string name="analyze_another">Analyze another</string>
+    <string name="home_button">Home</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning_title">Proceed with caution</string>
+    <string name="warning_intro">QR Shield\'s local checks found:</string>
+    <string name="warning_footer">Confirming does not make a destination safe.</string>
+    <string name="warning_continue">Continue</string>
+    <string name="destination_title">Open this address?</string>
+    <string name="destination_message">Your browser will be asked to open exactly:\n\n%1$s\n\nQR Shield does not follow redirects or check the site. Opening it is your decision.</string>
+    <string name="destination_open">Open in browser</string>
+    <string name="no_browser">No app on this device can open web links.</string>
+    <string name="cannot_open">This content cannot be opened as a web link.</string>
+
+    <string name="privacy_title">Privacy information</string>
+    <string name="privacy_body">What stays on your device\n\nBarcode recognition (Google ML Kit, on-device) and all link analysis happen locally. QR Shield has no internet permission, no account, no analytics and no advertising.\n\nCamera\n\nThe camera is used only while the scanner is open. Frames are analyzed in memory and are not saved or uploaded.\n\nWhat is stored\n\nNothing. This version keeps no scan history. Decoded content exists only in memory while a result is shown. If you tap Copy, the text goes to the system clipboard, which other apps may be able to read.\n\nOpening links\n\nQR Shield never opens a link automatically. Opening is a separate action that shows the exact address first. Only http and https addresses can be opened, and your browser then connects to that site under its own privacy rules.\n\nLimits\n\nThe checks are local heuristics with no reputation data. They can miss harmful links and can flag harmless ones.</string>
+</resources>

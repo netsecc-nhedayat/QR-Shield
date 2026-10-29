@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <TextView
+            style="@style/Text.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manual_description" />
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_m"
+            android:background="@drawable/bg_card"
+            android:gravity="top|start"
+            android:hint="@string/manual_hint"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine|textNoSuggestions|textUri"
+            android:maxLength="8192"
+            android:minHeight="160dp"
+            android:padding="@dimen/spacing_m"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="@dimen/text_body" />
+
+        <Button
+            android:id="@+id/btn_analyze"
+            style="@style/Widget.QRShield.Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_m"
+            android:text="@string/analyze_button" />
+
+        <Button
+            android:layout_marginTop="@dimen/spacing_s"
+            android:id="@+id/btn_clear"
+            style="@style/Widget.QRShield.Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_button" />
+    </LinearLayout>
+</ScrollView>

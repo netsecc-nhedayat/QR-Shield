@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="corner_radius">12dp</dimen>
+    <dimen name="touch_target">52dp</dimen>
+    <dimen name="logo_size">48dp</dimen>
+    <dimen name="max_content_width">560dp</dimen>
+    <dimen name="text_headline">28sp</dimen>
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_caption">13sp</dimen>
+</resources>

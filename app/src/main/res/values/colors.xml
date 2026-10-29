@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy_900">#0B1220</color>
+    <color name="navy_800">#111A2E</color>
+    <color name="navy_700">#1A2540</color>
+    <color name="teal_500">#14B8A6</color>
+    <color name="teal_700">#0F766E</color>
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#B6C2D4</color>
+    <color name="on_accent">#06201D</color>
+    <color name="ripple">#33FFFFFF</color>
+    <color name="risk_info">#64748B</color>
+    <color name="risk_low">#0F766E</color>
+    <color name="risk_medium">#B45309</color>
+    <color name="risk_high">#B91C1C</color>
+    <color name="risk_unknown">#475569</color>
+    <color name="on_risk">#FFFFFF</color>
+</resources>
